@@ -1,0 +1,113 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GameHub/1.0.0": {
+        "dependencies": {
+          "Baseline": "4.1.0",
+          "DryIoc.dll": "5.3.1",
+          "LamarCodeGeneration": "6.3.0"
+        },
+        "runtime": {
+          "GameHub.dll": {}
+        }
+      },
+      "Baseline/4.1.0": {
+        "dependencies": {
+          "ImTools": "4.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Baseline.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      },
+      "DryIoc.dll/5.3.1": {
+        "runtime": {
+          "lib/netstandard2.1/DryIoc.dll": {
+            "assemblyVersion": "5.3.1.0",
+            "fileVersion": "5.3.1.0"
+          }
+        }
+      },
+      "ImTools/4.0.0": {},
+      "LamarCodeGeneration/6.3.0": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/LamarCodeGeneration.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {},
+      "System.ValueTuple/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "GameHub/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Baseline/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uM4EJYhrn9OmjLOTI0nJuT6WwqsH/+ZM+d8uwLS1o/SX8MRp5xj/83Zoms7ffwi8D3AMK+qDyUJ4cx4jgVY9gg==",
+      "path": "baseline/4.1.0",
+      "hashPath": "baseline.4.1.0.nupkg.sha512"
+    },
+    "DryIoc.dll/5.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3zclUh2CIBks1t2uBD1k18pyGFJ1YSKCrbCDbB7qCdl2RAB+k68AyDpjeplhF1ot2XPV82AgyCWBXMf0ggL1g==",
+      "path": "dryioc.dll/5.3.1",
+      "hashPath": "dryioc.dll.5.3.1.nupkg.sha512"
+    },
+    "ImTools/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dms0JfLKC9AQbQX/EdpRjn59EjEvaCxIgv1z9YxbEQb5SiOVoo7vlIKdEySeEwUkWhN05rZnNpUpG+aw5VqPVQ==",
+      "path": "imtools/4.0.0",
+      "hashPath": "imtools.4.0.0.nupkg.sha512"
+    },
+    "LamarCodeGeneration/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PBHMzJEIcjl1CkSwU1DSf9oGLTcD7Z6PCJzxwWln2iipugPVJNyuyzuuhN3TCFGqJEzmZLTUr5JrKiGOEAmT+w==",
+      "path": "lamarcodegeneration/6.3.0",
+      "hashPath": "lamarcodegeneration.6.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    }
+  }
+}
