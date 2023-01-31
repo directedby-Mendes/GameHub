@@ -33,9 +33,11 @@ namespace GameHub.Classes {
         public async void SalvarArquivo(List<Jogador> jogadorSalvar) {
         //TRANSFORMANDO EM STRING 
             var salvarArquivo = JsonSerializer.Serialize(jogadorSalvar);
-            Console.WriteLine(salvarArquivo);
+           // Console.WriteLine(salvarArquivo);
             //Salvando no JSON
             await File.WriteAllTextAsync(@"C:\Users\Diego\Desktop\Ima\GameHub\GameHub\GameHub\Classes\Dados.json", salvarArquivo);
+            Console.Clear();
+            Program.GameHubMenu();
         }
     }
 }
